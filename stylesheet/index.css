@@ -10,14 +10,87 @@ html{
 
 body{
     height: 100vh;
+    background-color: #110040;
+    color: #3e8fe6;
 }
 
 .flex-start-mode{
     text-align: center;
 }
 
+.flex-start-box{
+    border: 10px solid #110040;
+    height: 70%;
+    width: 27%;
+    background-color: #459fff;
+    border-radius: 15px;
+}
+
 .flex-start {
+    display: flex;
     border: 10px solid #3e8fe6;
     height: 70%;
     width:  98%;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #220080;
+    border-radius: 15px;
+}
+
+
+.flex-end {
+    display: flex;
+    border: 10px solid #3e8fe6;
+    height: 70%;
+    width:  98%;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #220080;
+    border-radius: 15px;
+}
+.flex-center {
+    display: flex;
+    border: 10px solid #3e8fe6;
+    height: 70%;
+    width:  98%;
+    justify-content: center;
+    align-items: center;
+    background-color: #220080;
+    border-radius: 15px;
+}
+.flex-between {
+    display: flex;
+    border: 10px solid #3e8fe6;
+    height: 70%;
+    width:  98%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #220080;
+    border-radius: 15px;
+}
+
+.flex-around {
+    display: flex;
+    border: 10px solid #3e8fe6;
+    height: 70%;
+    width:  98%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #220080;
+    border-radius: 15px;
+}
+
+.flex-even{
+    display: flex;
+    border: 10px solid #3e8fe6;
+    height: 70%;
+    width:  98%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #220080;
+    border-radius: 15px;
+}
+
+.hidden {
+    display:none;
 }
